@@ -17,6 +17,6 @@
  `gpg --output revoke.asc --gen-revoke mykey`
 
 * Then export your public key by running this command :
-  * `gpg --armor --export fingerprint > publickey.asc`
+  * `gpg --armor --export keyid > publickey.asc`
 
 4. Then publish to PGP Global Directory , import key , trust and sign
